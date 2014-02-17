@@ -8,8 +8,8 @@ namespace :db do
       password = "password"
       User.create!( name: name,
                     email: email,
-                    password: password,
-                    password_confirmation: password)
+                    password: password2,
+                    password_confirmation: password2)
     end
 
     User.all.each do |user|
